@@ -1,13 +1,13 @@
 SPK_NAME = fish
 SPK_VERS = 3.6.1
-SPK_REV = 6
+SPK_REV = 1
 SPK_ICON = src/ascii_fish.png
 
 DEPENDS = cross/fish
 
 UNSUPPORTED_ARCHS = $(ARMv5_ARCHS) $(OLD_PPC_ARCHS)
 
-MAINTAINER = SynoCommunity
+MAINTAINER = reishoku
 DESCRIPTION = fish is a smart and user-friendly command line shell for Linux, macOS, and the rest of the family.
 DISPLAY_NAME = fish
 STARTABLE = no
