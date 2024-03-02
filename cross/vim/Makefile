@@ -1,8 +1,8 @@
 PKG_NAME = vim
-PKG_VERS = 9.0
-PKG_EXT = tar.bz2
-PKG_DIST_NAME = $(PKG_NAME)-$(PKG_VERS).$(PKG_EXT)
-PKG_DIST_SITE = https://ftp.nluug.nl/pub/vim/unix
+PKG_VERS = v9.0.1585
+PKG_EXT = tar.gz
+PKG_DIST_NAME = $(PKG_VERS).$(PKG_EXT)
+PKG_DIST_SITE = https://github.com/vim/vim/archive/refs/tags
 SPECIFIC_VERSION=$(subst .,,$(PKG_VERS))
 PKG_DIR = $(PKG_NAME)$(SPECIFIC_VERSION)
 
